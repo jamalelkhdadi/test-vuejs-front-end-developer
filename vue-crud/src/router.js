@@ -4,6 +4,8 @@ import HomeView from "../views/HomeView.vue";
 
 
 const routes =  [
+
+/*
   {
       path: "/",
       name: "home",
@@ -17,8 +19,10 @@ const routes =  [
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue")
     },
+*/
+
   {
-    path: "/tutorials",
+    path: "/",
     alias: "/tutorials",
     name: "tutorials",
     component: () => import("./components/TutorialsList")
