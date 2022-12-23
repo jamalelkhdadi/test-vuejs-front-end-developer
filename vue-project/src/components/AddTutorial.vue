@@ -12,7 +12,6 @@
           name="title"
         />
       </div>
-
       <div class="form-group">
         <label for="description">Description</label>
         <input

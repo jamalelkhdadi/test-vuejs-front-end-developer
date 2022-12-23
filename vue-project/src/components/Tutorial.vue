@@ -1,3 +1,4 @@
+
 <template>
   <div v-if="currentTutorial" class="edit-form">
     <h4>Tutorial</h4>
@@ -54,6 +55,9 @@
 </template>
 
 <script>
+// eslint-disable-next-line
+/* eslint-disable */
+
 import TutorialDataService from "../services/TutorialDataService";
 
 export default {
