@@ -44,8 +44,9 @@
     "not dead",
     "not ie 11"
   ],
-  "vue/multi-word-component-names": ["error", {
-    "ignores": []
-  }]
+  "engine": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  }
+  
 
 }
